@@ -3,8 +3,7 @@
 ### A Python tool to query the https://haveibeenpwned.com API to see if a given password or email address has been compromised in a data breach.
 <br />
 
-You can view the PwnyTrap live app [HERE.](https://ci-pp3-pwnytrap.herokuapp.com/)
-<br />
+You can view the PwnyTrap live app [HERE.](https://pwnytrap-ci-pp3.onrender.com/)
 <br />
 
 <h2 align="center"><img src="readme-docs/pwnytrap-v1.0-main-screen.png"></h2>
@@ -19,7 +18,7 @@ You can view the PwnyTrap live app [HERE.](https://ci-pp3-pwnytrap.herokuapp.com
 * [Credits](#credits)
 
 ## - Purpose -
-[This app was created as the third Portfolio Project (PP3) for the Code Institute's Full Stack Web Development course. The app is to showcase Python skills, and as a requirement is deployed to Heroku using a Code Institute mock terminal template.]  
+[This app was created as the third Portfolio Project (PP3) for the Code Institute's Full Stack Web Development course. The app is to showcase Python skills, and as a requirement is deployed to ~~Heroku~~ Render using a Code Institute mock terminal template.]  
 
 In short:  
 A Python tool to query the HaveIBeenPwned.com API to see if a given password or email address was compromised in a data breach.
@@ -88,6 +87,7 @@ I hope this app sparks conversation amongst software developers around the conce
 1.  [Flake8](https://flake8.pycqa.org/en/latest/) linter extension for VScode 
 1.  [Heroku](https://www.heroku.com) was used to deploy the app using a Code Institute template
 1.  [LucidChart](https://lucidchart.com) was used to create the logic flowchart
+1.  This app was later migrated to [Render](https://render.com) for free hosting
 
 <!---  --->
 <!---  Begin testing section --->
@@ -138,7 +138,9 @@ I hope this app sparks conversation amongst software developers around the conce
 ## - Deployment -
 
 ### Heroku  
-The live deployed site can be viewed on Heroku [HERE](https://ci-pp3-pwnytrap.herokuapp.com)
+~~The live deployed site can be viewed on Heroku [HERE](https://ci-pp3-pwnytrap.herokuapp.com)~~
+
+Note: The live deployed site was later migrated to Render and can be viewed [HERE](https://pwnytrap-ci-pp3.onrender.com).  Just note that the following instructions are being left in this readme for now, but are specific to the methods used for the original Heroku deployment.
 
 The Project repository (repo) is at [https://github.com/davewatters/pwnytrap-ci-pp3](https://github.com/davewatters/pwnytrap-ci-pp3)
 
@@ -158,16 +160,16 @@ Deployment of the site to Heroku was done as follows:
 1.  Connect to GitHub repo by entering YOUR-REPO-NAME, then Connect
 1.  A message will confirm that your app was successfuly deployed
 1.  Test that the site has successfully gone live by clicking on the 'View' button
-1.  Your app can now be accessed via any browser at: `https://YOUR-APP-NAME.heroku.com`
+1.  Your app can now be accessed via any browser at: `https://YOUR-APP-NAME.herokuapp.com`
 
-
+<a name="credits>
 ## - Credits - 
-
+</a>
 -   Project inspired by [Troy Hunt's](https:/troyhunt.com) [Have I Been Pwned](https://haveibeenpwned.com) website
 -   Full HIBP API v3 Specification Document [HERE](https://haveibeenpwned.com/API/v3)
 
 ### Code
--   No code was directly copied to this project but numerous resources helped me understand what I needed and how best to code it. These include: The official [Python Docs](https://docs.python.org), StackOverflow.com, W3Schools.com, RealPython.com  
+-   No code was directly copied to this project but numerous resources helped me understand what I needed and how best to code it. These include: The official [Python Docs](https://docs.python.org), StackOverflow.com, W3Schools.com, [RealPython.com](https://realpython.com/)  
 -   _Automate the Boring Stuff with Python, 2nd Edition_, Al Sweigart. Very helpful as an intro to implementing regex searching in Python and also working with the `requests` and `json` modules
 -   https://www.regular-expressions.info/email.html
 -   Other projects using the HIBP API providing inspiration included:  
@@ -178,6 +180,9 @@ Deployment of the site to Heroku was done as follows:
 
 ### Acknowledgements
 
--   The HIBP database and API were created by Troy Hunt and licensed under the Creative Commons Attribution 4.0 International Licence
+-   The [HaveIBeenPwned API](https://haveibeenpwned.com/API/v3) was created by [Troy Hunt](https:/troyhunt.com) and is licensed under the [Creative Commons Attribution 4.0 International Licence](https://creativecommons.org/licenses/by/4.0/)
 -   My mentor [Daisy McGirr](https://github.com/Daisy-McG) for all her helpful feedback and knowledge.
 -   The Code Institute community on Slack and the CI staff and students for their feedback and support.
+
+### See Also
+Follow further development of this project as a command line tool here: https://github.com/davewatters/pwnytrap
