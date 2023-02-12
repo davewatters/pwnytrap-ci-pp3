@@ -162,9 +162,8 @@ Deployment of the site to Heroku was done as follows:
 1.  Test that the site has successfully gone live by clicking on the 'View' button
 1.  Your app can now be accessed via any browser at: `https://YOUR-APP-NAME.herokuapp.com`
 
-<a name="credits>
-## - Credits - 
-</a>
+
+## Credits
 
 -   Project inspired by [Troy Hunt's](https:/troyhunt.com) [Have I Been Pwned](https://haveibeenpwned.com) website
 -   Full HIBP API v3 Specification Document [HERE](https://haveibeenpwned.com/API/v3)
