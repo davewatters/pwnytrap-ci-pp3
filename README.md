@@ -165,6 +165,7 @@ Deployment of the site to Heroku was done as follows:
 <a name="credits>
 ## - Credits - 
 </a>
+
 -   Project inspired by [Troy Hunt's](https:/troyhunt.com) [Have I Been Pwned](https://haveibeenpwned.com) website
 -   Full HIBP API v3 Specification Document [HERE](https://haveibeenpwned.com/API/v3)
 
